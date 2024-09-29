@@ -12,8 +12,6 @@ The Secure File Sharing System is a web application that allows two different ty
 ### Authentication
 - JWT (JSON Web Tokens)
 
-### Frontend
-- (if applicable, mention it here)
 
 ### Environment
 - Python 3.x

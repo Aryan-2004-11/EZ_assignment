@@ -78,15 +78,3 @@ uvicorn app.main:app --reload
 | POST   | /login             | Authenticate user and return a JWT token.      |
 | POST   | /upload-file       | Upload a file (only specific formats allowed). |
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request with your changes.
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
-```
-
-### Instructions
-1. Replace `yourusername` in the clone URL with your actual GitHub username.
-2. Update the frontend section if you have a frontend part of your project.
-3. Fill in the `.env` file with your actual secrets and database URI.
-4. If you have any additional details about your project, feel free to include them in the relevant sections.

@@ -1,42 +1,42 @@
-Here's a complete `README.md` for your Secure File Sharing System project, including all necessary sections:
+Here’s the cleaned-up and corrected `README.md` for your Secure File Sharing System project:
 
 ```markdown
 # Secure File Sharing System
 
 ## Table of Contents
-* [Overview](#overview)
-* [Technologies](#technologies)
-* [Features](#features)
-* [Installation](#installation)
-* [Usage](#usage)
-* [API Endpoints](#api-endpoints)
-* [Contributing](#contributing)
-* [License](#license)
+- [Overview](#overview)
+- [Technologies](#technologies)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Overview
 The Secure File Sharing System is a web application that allows two different types of users (Ops User and Client User) to securely upload and share files. The system uses JWT (JSON Web Tokens) for authentication and supports various file types.
 
 ## Technologies
 ### Backend
-* FastAPI
+- FastAPI
 
 ### Database
-* MongoDB
+- MongoDB
 
 ### Authentication
-* JWT (JSON Web Tokens)
+- JWT (JSON Web Tokens)
 
 ### Frontend
-* (if applicable, mention it here)
+- (if applicable, mention it here)
 
 ### Environment
-* Python 3.x
+- Python 3.x
 
 ## Features
-* User authentication with JWT.
-* Secure file upload for specific file types (e.g., .pptx, .docx, .xlsx).
-* File validation and error handling.
-* Support for different user roles (Ops User and Client User).
+- User authentication with JWT.
+- Secure file upload for specific file types (e.g., .pptx, .docx, .xlsx).
+- File validation and error handling.
+- Support for different user roles (Ops User and Client User).
 
 ## Installation
 ### Step 1: Clone the repository
@@ -73,8 +73,8 @@ uvicorn app.main:app --reload
 2. **File Upload**: Use the JWT token to access the `/upload-file` endpoint. Set the `Authorization` header as `Bearer your_generated_token` and send the file in the body as form-data.
 
 ## API Endpoints
-| Method | Endpoint           | Description                                     |
-|--------|--------------------|-------------------------------------------------|
-| POST   | /login             | Authenticate user and return a JWT token.      |
-| POST   | /upload-file       | Upload a file (only specific formats allowed). |
+| Method | Endpoint     | Description                                     |
+|--------|--------------|-------------------------------------------------|
+| POST   | /login       | Authenticate user and return a JWT token.      |
+| POST   | /upload-file | Upload a file (only specific formats allowed). |
 

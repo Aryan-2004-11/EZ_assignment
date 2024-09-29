@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pymongo
+python-jose
+pydantic
+click
+python-dotenv
+python-multipart

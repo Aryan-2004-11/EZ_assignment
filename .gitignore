@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+
+# FastAPI
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Pytest
+.cache
+*.cover
+*.py,cover
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env

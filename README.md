@@ -1,17 +1,3 @@
-Here’s the cleaned-up and corrected `README.md` for your Secure File Sharing System project:
-
-```markdown
-# Secure File Sharing System
-
-## Table of Contents
-- [Overview](#overview)
-- [Technologies](#technologies)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 The Secure File Sharing System is a web application that allows two different types of users (Ops User and Client User) to securely upload and share files. The system uses JWT (JSON Web Tokens) for authentication and supports various file types.
